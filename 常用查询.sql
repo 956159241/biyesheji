@@ -21,3 +21,7 @@ WHERE PartId = 1;
 --更改配件信息表内容
 UPDATE CarParts SET Num='P000',PartName='kkk',FromDepartId = 2,InTime='2212-12-12',Quantity='11',UnitPrice='33'
 WHERE PartId = 8;
+
+--查询供应商信息
+SELECT Num,Name,Principal,Address,Ways,Phone
+FROM Supplies;

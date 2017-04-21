@@ -32,7 +32,7 @@
     <div>
         <asp:Button ID="btnAdd" runat="server" Text="添加" />
         <asp:Button ID="btnDelete" runat="server" Text="删除" OnClick="btnDelete_Click" />
-        <asp:GridView ID="gvParts" runat="server" DataKeyNames="PartId" AutoGenerateColumns="False" AllowPaging="True" OnPageIndexChanging="gvParts_PageIndexChanging" PageSize="3">
+        <asp:GridView ID="gvParts" runat="server" DataKeyNames="PartId" AutoGenerateColumns="False" AllowPaging="True" OnPageIndexChanging="gvParts_PageIndexChanging">
             <Columns>
                 <asp:TemplateField HeaderText="删除">
                      <ItemTemplate>

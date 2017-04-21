@@ -20,7 +20,6 @@ namespace WebApp.InfoPage
             if (Request.QueryString.AllKeys.Contains("pid"))
             {
                 pId = int.Parse(Request.QueryString["pid"]);
-                ShowInfo(pId);
             }
             else 
             {
@@ -29,9 +28,22 @@ namespace WebApp.InfoPage
             }
             if (!IsPostBack)
             {
-                pId = int.Parse(Request.QueryString["pid"]);
-                ShowInfo(pId);
+                BindDrop();
+                if (pId != 0)
+                {
+                    ShowInfo(pId);
+                }
             }
+        }
+        //绑定下来菜单
+        public void BindDrop()
+        {
+            string sql = "SELECT Id ,Name FROM dbo.Supplies";
+            DataSet ds = DbHelperSQL.Query(sql);
+            ddlFromDep.DataSource = ds;
+            ddlFromDep.DataTextField = "Name";
+            ddlFromDep.DataValueField = "Id";
+            ddlFromDep.DataBind();
         }
         public void ShowInfo(int id) 
         {
@@ -54,25 +66,21 @@ namespace WebApp.InfoPage
             btnAdd.Text = "修改";
 
         }
-        public void BindData()
-        {
-          
-        }
         //添加数据
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-            pId = int.Parse(Request.QueryString["pid"]);
+            
             //获取输入值
-            string Num = txtNum.Text;
-            string PartName = txtPartName.Text;
-            int FromDepartId = Convert.ToInt32(ddlFromDep.SelectedValue);
-            DateTime InTime = System.DateTime.Now;
-            DateTime InTimeText = Convert.ToDateTime(txtInTime.Text);
-            int Quantity = Convert.ToInt32(txtQuantity.Text);
-            decimal UnitPrice = Convert.ToDecimal(txtUnitPrice.Text);
+            
             //由于带参数进入后，将按钮的文字改变了，所以可以根据文字不同进行不同的操作
             if (btnAdd.Text == "添加")
             {
+                string Num = txtNum.Text.ToString();
+                string PartName = txtPartName.Text.ToString();
+                int FromDepartId = Convert.ToInt32(ddlFromDep.SelectedValue);
+                DateTime InTime = System.DateTime.Now;
+                int Quantity = Convert.ToInt32(txtQuantity.Text);
+                decimal UnitPrice = Convert.ToDecimal(txtUnitPrice.Text);
                 StringBuilder sb = new StringBuilder();
                 sb.AppendLine("INSERT INTO CarParts(Num,PartName,FromDepartId,InTime,Quantity,UnitPrice)");
                 sb.AppendLine("VALUES(@Num,@PartName,@FromDepartId,@InTime,@Quantity,@UnitPrice);");
@@ -94,11 +102,18 @@ namespace WebApp.InfoPage
             }
             else 
             {
-                
-                StringBuilder sbSql = new StringBuilder();
-                sbSql.AppendLine("UPDATE CarParts SET");
-                sbSql.AppendLine("Num=@Num, PartName=@PartName,FromDepartId=@FromDepartId, InTime=@InTime,Quantity=@Quantity,UnitPrice=@UnitPrice");
-                sbSql.AppendLine("WHERE PartId = @PartId;");
+                string Num = txtNum.Text.ToString();
+                string PartName = txtPartName.Text.ToString();
+                int FromDepartId = Convert.ToInt32(ddlFromDep.SelectedValue);
+                DateTime InTimeText = Convert.ToDateTime(txtInTime.Text);
+                int Quantity = Convert.ToInt32(txtQuantity.Text);
+                decimal UnitPrice = Convert.ToDecimal(txtUnitPrice.Text);
+                pId = int.Parse(Request.QueryString["pid"]);
+                StringBuilder sbUpdate = new StringBuilder();
+                sbUpdate.AppendLine("UPDATE CarParts SET");
+                sbUpdate.AppendLine("Num = @Num, PartName = @PartName,FromDepartId = @FromDepartId,");
+                sbUpdate.AppendLine(" InTime = @InTime,Quantity = @Quantity,UnitPrice = @UnitPrice");
+                sbUpdate.AppendLine("WHERE PartId = @PartId;");
                 SqlParameter[] pars = { 
                                     new SqlParameter("@Num",SqlDbType.NVarChar,50),
                                     new SqlParameter("@PartName",SqlDbType.NVarChar,50),
@@ -115,9 +130,9 @@ namespace WebApp.InfoPage
                 pars[4].Value = Quantity;
                 pars[5].Value = UnitPrice;
                 pars[6].Value = pId;
-                DbHelperSQL.ExecuteSql(sbSql.ToString(),pars);
+                DbHelperSQL.ExecuteSql(sbUpdate.ToString(), pars);
             }
-            Response.Write("<script language=\"javascript\">window.opener=null;window.close();</script>");
+            Response.Write("<script language=\"javascript\">opener.location.href=opener.location.href;opener=null;window.close();</script>");
 
         }
     }

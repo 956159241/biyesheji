@@ -62,8 +62,8 @@
                 <li><a href="javascript:void(0)" class="linkToPage" url="InfoPage/PartsInfo.aspx">配件信息</a></li>
                 <li><a href="javascript:void(0)" class="linkToPage" url="InfoPage/Supplies.aspx">供应商信息</a></li>
                 <li><a href="javascript:void(0)" class="linkToPage" url="InfoPage/NeedMerchant.aspx">需求商信息</a></li>
-                <li><a href="javascript:void(0)" class="linkToPage" url="">管理员信息</a></li>
-                <li><a href="javascript:void(0)" class="linkToPage" url="">操作日志</a></li>
+                <li><a href="javascript:void(0)" class="linkToPage" url="InfoPage/Manager.aspx">管理员信息</a></li>
+                <li><a href="javascript:void(0)" class="linkToPage" url="InfoPage/Log.aspx">操作日志</a></li>
             </ul>
         </div>
         <%--左侧的切换选择结束--%>

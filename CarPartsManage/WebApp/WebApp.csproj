@@ -960,10 +960,15 @@
     <Content Include="Global.asax" />
     <Content Include="Index1.aspx" />
     <Content Include="Index2.aspx" />
+    <Content Include="InfoPage\Log.aspx" />
+    <Content Include="InfoPage\Manager.aspx" />
+    <Content Include="InfoPage\ManagerEdit.aspx" />
     <Content Include="InfoPage\NeedMerchant.aspx" />
+    <Content Include="InfoPage\NeedMerchantEdit.aspx" />
     <Content Include="InfoPage\PartsInfo.aspx" />
     <Content Include="InfoPage\PartsInfoEdit.aspx" />
     <Content Include="InfoPage\Supplies.aspx" />
+    <Content Include="InfoPage\SuppliesInfoEdit.aspx" />
     <Content Include="Login.html" />
     <Content Include="packages.config" />
     <Content Include="LoginHandler.ashx" />
@@ -1065,12 +1070,40 @@
     <Compile Include="Index2.aspx.designer.cs">
       <DependentUpon>Index2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="InfoPage\Log.aspx.cs">
+      <DependentUpon>Log.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InfoPage\Log.aspx.designer.cs">
+      <DependentUpon>Log.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPage\Manager.aspx.cs">
+      <DependentUpon>Manager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InfoPage\Manager.aspx.designer.cs">
+      <DependentUpon>Manager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPage\ManagerEdit.aspx.cs">
+      <DependentUpon>ManagerEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InfoPage\ManagerEdit.aspx.designer.cs">
+      <DependentUpon>ManagerEdit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="InfoPage\NeedMerchant.aspx.cs">
       <DependentUpon>NeedMerchant.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="InfoPage\NeedMerchant.aspx.designer.cs">
       <DependentUpon>NeedMerchant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPage\NeedMerchantEdit.aspx.cs">
+      <DependentUpon>NeedMerchantEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InfoPage\NeedMerchantEdit.aspx.designer.cs">
+      <DependentUpon>NeedMerchantEdit.aspx</DependentUpon>
     </Compile>
     <Compile Include="InfoPage\PartsInfo.aspx.cs">
       <DependentUpon>PartsInfo.aspx</DependentUpon>
@@ -1092,6 +1125,13 @@
     </Compile>
     <Compile Include="InfoPage\Supplies.aspx.designer.cs">
       <DependentUpon>Supplies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPage\SuppliesInfoEdit.aspx.cs">
+      <DependentUpon>SuppliesInfoEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InfoPage\SuppliesInfoEdit.aspx.designer.cs">
+      <DependentUpon>SuppliesInfoEdit.aspx</DependentUpon>
     </Compile>
     <Compile Include="LoginHandler.ashx.cs">
       <DependentUpon>LoginHandler.ashx</DependentUpon>

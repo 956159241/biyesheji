@@ -32,8 +32,8 @@
             </tr>
             <tr>
                 <td><asp:Label ID="Label3" runat="server" Text="生产单位:"></asp:Label></td>
-                <td><asp:DropDownList ID="ddlFromDep" runat="server" DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="Id"></asp:DropDownList>
-                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:MainConn %>" SelectCommand="SELECT [Name], [Id] FROM [Supplies]"></asp:SqlDataSource>
+                <td><asp:DropDownList ID="ddlFromDep" runat="server"></asp:DropDownList>
+                    <%--<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:MainConn %>" SelectCommand="SELECT [Name], [Id] FROM [Supplies]"></asp:SqlDataSource>--%>
                 </td>     
             </tr>
             <tr>
