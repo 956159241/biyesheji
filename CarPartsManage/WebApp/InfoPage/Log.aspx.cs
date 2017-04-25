@@ -23,7 +23,7 @@ namespace WebApp.InfoPage
         {
             //查询数据
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("SELECT Id,Operator,Type,Details,Time,IP");
+            sb.AppendLine("SELECT Id,Operator,Department,Type,Details,Time,IP");
             sb.AppendLine("FROM Log");
             DataSet ds = DbHelperSQL.Query(sb.ToString());
             //将数据绑定到gvParts上展示

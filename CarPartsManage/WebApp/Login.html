@@ -10,6 +10,17 @@
     <script src="Scripts/jquery-3.2.1.js"></script>
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--切换背景的css-->
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/supersized.css">
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
     <style type="text/css">
         * {
             margin: 0;
@@ -22,7 +33,7 @@
         }
 
         body {
-            background: #000;
+            background: white;
             color: #DDD;
             font-family: 'Helvetica', 'Lucida Grande', 'Arial', sans-serif;
         }
@@ -32,10 +43,10 @@
         }
 
         .rain {
-            padding: 10px 12px 12px 10px;
-            -moz-box-shadow: 10px 10px 10px rgba(0,0,0,1) inset, -9px -9px 8px rgba(0,0,0,1) inset;
+            /*padding: 10px 12px 12px 10px;
+            -moz-box-shadow: 10px 10px 10px rgba(0,0,0,0.1) inset, -9px -9px 8px rgba(0,0,0,1) inset;
             -webkit-box-shadow: 8px 8px 8px rgba(0,0,0,1) inset, -9px -9px 8px rgba(0,0,0,1) inset;
-            box-shadow: 8px 8px 8px rgba(0,0,0,1) inset, -9px -9px 8px rgba(0,0,0,1) inset;
+            box-shadow: 8px 8px 8px rgba(0,0,0,1) inset, -9px -9px 8px rgba(0,0,0,1) inset;*/
             margin: 100px auto;
         }
 
@@ -135,21 +146,21 @@
 
 
         form {
-            background: #212121;
+            /*background: #212121;*/
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             border-radius: 5px;
             height: 220px;
             width: 100%;
-            background: -moz-radial-gradient(50% 46% 90deg,circle closest-corner, #242424, #090909);
-            background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 150, from(#242424), to(#090909));
+            /*background: -moz-radial-gradient(50% 46% 90deg,circle closest-corner, #242424, #090909);
+            background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 150, from(#242424), to(#090909));*/
         }
 
             form label {
                 display: block;
                 padding: 10px 10px 5px 15px;
                 font-size: 11px;
-                color: #777;
+                color: black;
             }
 
             form input {
@@ -190,7 +201,7 @@
             text-shadow: 0 1px 1px #000;
             outline: none;
             width: 80px;
-            margin-top: 20px;
+            margin: 20px auto;
             text-align: center;
         }
             #submit:hover {
@@ -269,5 +280,10 @@
             </form>
         </div>
     </div>
+    <!--背景切换js-->
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.8.2.min.js"></script>
+    <script src="assets/js/supersized.3.2.7.min.js"></script>
+    <script src="assets/js/supersized-init.js"></script>
 </body>
 </html>

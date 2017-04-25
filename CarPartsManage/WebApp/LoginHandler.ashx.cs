@@ -39,12 +39,14 @@ namespace WebApp
                 //根据判断选择进入哪个主页,无论进来的管理员或者是普通用户都记录下操作者的ID，方便记录日志
                 if (ds.Tables[0].Rows[0]["Type"].ToString() == "1")
                 {
-                    context.Session["UserName"] = ds.Tables[0].Rows[0]["UserName"].ToString();
+                    context.Session["Id"] = ds.Tables[0].Rows[0]["UserId"].ToString();
+                    context.Session["LoginTime"] = DateTime.Now.ToString();
                     context.Response.Write("ok1:登录成功");
                 }
                 else
                 {
-                    context.Session["UserName"] = ds.Tables[0].Rows[0]["UserName"].ToString();
+                    context.Session["Id"] = ds.Tables[0].Rows[0]["UserId"].ToString();
+                    context.Session["LoginTime"] = DateTime.Now.ToString();
                     context.Response.Write("ok2:登录成功");
                 }
             }

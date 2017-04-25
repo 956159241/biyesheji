@@ -85,12 +85,12 @@ namespace WebApp.InfoPage
             //判断选中了一个，还是选中了多个进行删除
             if (sbIds.Length - 1 > 1)
             {
-                sbIds.Insert(0, "DELETE FROM dbo.Supplies WHERE Id in (");
+                sbIds.Insert(0, "DELETE FROM dbo.NeedMerchant WHERE Id in (");
                 sbIds.Insert(sbIds.Length, ")");
             }
             else
             {
-                sbIds.Insert(0, "DELETE FROM dbo.Supplies WHERE Id = ");
+                sbIds.Insert(0, "DELETE FROM dbo.NeedMerchant WHERE Id = ");
             }
             DbHelperSQL.ExecuteSql(sbIds.ToString());
             Response.Write("<script>alert('删除成功');</script>");

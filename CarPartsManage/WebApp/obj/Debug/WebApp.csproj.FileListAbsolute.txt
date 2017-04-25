@@ -30,6 +30,6 @@ E:\毕业设计\biyesheji\CarPartsManage\WebApp\bin\zh-Hans\System.Web.Providers
 E:\毕业设计\biyesheji\CarPartsManage\WebApp\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
 E:\毕业设计\biyesheji\CarPartsManage\WebApp\bin\zh-Hans\Microsoft.AspNet.FriendlyUrls.resources.dll
 E:\毕业设计\biyesheji\CarPartsManage\WebApp\bin\zh-Hans\System.Net.Http.resources.dll
-E:\毕业设计\biyesheji\CarPartsManage\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
 E:\毕业设计\biyesheji\CarPartsManage\WebApp\obj\Debug\WebApp.dll
 E:\毕业设计\biyesheji\CarPartsManage\WebApp\obj\Debug\WebApp.pdb
+E:\毕业设计\biyesheji\CarPartsManage\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache

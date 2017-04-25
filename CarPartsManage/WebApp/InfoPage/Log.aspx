@@ -6,6 +6,37 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style type="text/css">
+        body {
+            padding:10px;
+            background:rgba(0, 0, 0,0.1);
+            overflow:hidden;
+        }
+        #gvLog {
+            background:rgba(0,0,0,0.5);
+            color:white;
+            margin-top:15px;
+        }
+        /*为两个按钮添加样式*/
+        @-webkit-keyframes greenPulse {
+            from { background-color: #F58BDF; -webkit-box-shadow: 0 0 9px #EA7BDA; }
+            50% { background-color: #EA7BDA; -webkit-box-shadow: 0 0 18px #F58BDF; }
+            to { background-color: #EB9DB5; -webkit-box-shadow: 0 0 9px #EA7BDA; }
+        }
+        #btnAdd,#btnDelete{
+         -webkit-animation-name: greenPulse;
+         -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+        }
+        /*对超链接统一定义样式*/
+        a {
+            text-decoration:none;
+            color:#909090;
+        }
+        td,th {
+            padding:5px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -13,6 +44,7 @@
         <asp:GridView ID="gvLog" runat="server" DataKeyNames="Id" AutoGenerateColumns="False" AllowPaging="True" OnPageIndexChanging="gvLog_PageIndexChanging">
             <Columns>
                 <asp:BoundField DataField="Operator" HeaderText="操作人" />
+                <asp:BoundField DataField="Department" HeaderText="所属部门" />
                 <asp:BoundField DataField="Type" HeaderText="操纵类型" />
                 <asp:BoundField DataField="Details" HeaderText="详情" />
                 <asp:BoundField DataField="Time" HeaderText="操作时间" />

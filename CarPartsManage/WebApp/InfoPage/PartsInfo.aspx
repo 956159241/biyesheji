@@ -9,7 +9,34 @@
     <script src="../Scripts/jquery-3.2.1.js"></script>
     <style type="text/css">
         body {
-            
+            background:rgba(0, 0, 0,0.1);
+        }
+        #gvParts {
+            background:rgba(0,0,0,0.5);
+            color:white;
+            margin-top:15px;
+        }
+        #gvParts > tr > td {
+            padding:10px;
+        }
+        /*为两个按钮添加样式*/
+        @-webkit-keyframes greenPulse {
+            from { background-color: #F58BDF; -webkit-box-shadow: 0 0 9px #EA7BDA; }
+            50% { background-color: #EA7BDA; -webkit-box-shadow: 0 0 18px #F58BDF; }
+            to { background-color: #EB9DB5; -webkit-box-shadow: 0 0 9px #EA7BDA; }
+        }
+        #btnAdd,#btnDelete{
+         -webkit-animation-name: greenPulse;
+         -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+        }
+        /*对超链接统一定义样式*/
+        a {
+            text-decoration:none;
+            color:#909090;
+        }
+        td,th {
+            padding:5px;
         }
     </style>
     <script type="text/javascript">

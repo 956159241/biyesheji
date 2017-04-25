@@ -34,8 +34,12 @@ namespace WebApp.InfoPage
 
             StringBuilder sbSql = new StringBuilder();
             sbSql.AppendLine("SELECT S.Id,S.Num,S.Name,S.Principal,S.Address,S.Ways,S.Phone");
-            sbSql.AppendLine("FROM Supplies AS S");
-            DataSet ds = DbHelperSQL.Query(sbSql.ToString());
+            sbSql.AppendLine("FROM Supplies AS S WHERE S.Id = @Id");
+            SqlParameter[] pars = { 
+                                  new SqlParameter("@Id",SqlDbType.Int)
+                                  };
+            pars[0].Value = id;
+            DataSet ds = DbHelperSQL.Query(sbSql.ToString(),pars);
             
             txtNum.Text = ds.Tables[0].Rows[0]["Num"].ToString();
             txtPrincipal.Text = ds.Tables[0].Rows[0]["Principal"].ToString();

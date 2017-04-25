@@ -34,8 +34,12 @@ namespace WebApp.InfoPage
 
             StringBuilder sbSql = new StringBuilder();
             sbSql.AppendLine("SELECT UserId,UserName,Department");
-            sbSql.AppendLine("FROM Users");
-            DataSet ds = DbHelperSQL.Query(sbSql.ToString());
+            sbSql.AppendLine("FROM Users WHERE UserId = @Id");
+            SqlParameter[] pars = { 
+                                  new SqlParameter("@Id",SqlDbType.Int)
+                                  };
+            pars[0].Value = id;
+            DataSet ds = DbHelperSQL.Query(sbSql.ToString(), pars);
             txtUserName.Text = ds.Tables[0].Rows[0]["UserName"].ToString();
             txtPassword.Text = ds.Tables[0].Rows[0]["Password"].ToString();
             txtDepartment.Text = ds.Tables[0].Rows[0]["Department"].ToString();
@@ -55,8 +59,8 @@ namespace WebApp.InfoPage
             {
                
                 StringBuilder sb = new StringBuilder();
-                sb.AppendLine("INSERT INTO Users(UserName,Password,Department,LoginTime)");
-                sb.AppendLine("VALUES(@UserName,@Password,@Department,GetDate());");
+                sb.AppendLine("INSERT INTO Users(UserName,Password,Department,LoginTime,Type)");
+                sb.AppendLine("VALUES(@UserName,@Password,@Department,GetDate(),'2');");
                 SqlParameter[] pms = { 
                                     new SqlParameter("@UserName",SqlDbType.NVarChar,50),
                                     new SqlParameter("@Password",SqlDbType.NVarChar,50),

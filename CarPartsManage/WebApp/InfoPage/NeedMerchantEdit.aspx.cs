@@ -33,9 +33,13 @@ namespace WebApp.InfoPage
         {
 
             StringBuilder sbSql = new StringBuilder();
-            sbSql.AppendLine("SELECT S.Id,S.Num,S.Name,S.Principal,S.Address,S.Ways,S.Phone");
-            sbSql.AppendLine("FROM Supplies AS S");
-            DataSet ds = DbHelperSQL.Query(sbSql.ToString());
+            sbSql.AppendLine("SELECT N.Id,N.Num,N.Name,N.Principal,N.Address,N.Phone");
+            sbSql.AppendLine("FROM NeedMerchant AS N WHERE Id = @Id");
+            SqlParameter[] pars = { 
+                                  new SqlParameter("@Id",SqlDbType.Int)
+                                  };
+            pars[0].Value = id;
+            DataSet ds = DbHelperSQL.Query(sbSql.ToString(),pars);
 
             txtNum.Text = ds.Tables[0].Rows[0]["Num"].ToString();
             txtPrincipal.Text = ds.Tables[0].Rows[0]["Principal"].ToString();
@@ -78,9 +82,9 @@ namespace WebApp.InfoPage
             }
             else
             {
-                nId = int.Parse(Request.QueryString["sid"]);
+                nId = int.Parse(Request.QueryString["nid"]);
                 StringBuilder sbUpdate = new StringBuilder();
-                sbUpdate.AppendLine("UPDATE Supplies SET");
+                sbUpdate.AppendLine("UPDATE NeedMerchant SET");
                 sbUpdate.AppendLine("Num = @Num, Name = @Name,Principal = @Principal,");
                 sbUpdate.AppendLine(" Address = @Address,Phone = @Phone");
                 sbUpdate.AppendLine("WHERE Id = @Id;");
