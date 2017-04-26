@@ -31,13 +31,14 @@
         }
         body {
             width:960px;
-            background:url("images/Index.png");
+            background:url("images/Index2Bg.jpg");
+            background-size:100%;
             margin:50px auto;
         }
          #gvNeedMer,#gvParts {
             background:rgba(0,0,0,0.5);
             color:white;
-            margin-top:15px;
+            margin:15px auto;
         }
           /*对超链接统一定义样式*/
         a {
@@ -47,9 +48,28 @@
         td,th {
             padding:5px;
         }
+         /*为两个按钮添加样式*/
+        @-webkit-keyframes greenPulse {
+            from { background-color: #F58BDF; -webkit-box-shadow: 0 0 9px #EA7BDA; }
+            50% { background-color: #EA7BDA; -webkit-box-shadow: 0 0 18px #F58BDF; }
+            to { background-color: #EB9DB5; -webkit-box-shadow: 0 0 9px #EA7BDA; }
+        }
+        #btnConfirm{
+         -webkit-animation-name: greenPulse;
+         -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+        margin-left:10px;
+        }
+        input {
+            border:none;
+        }
+        #txtNum, #txtQuantity,#txtNeedMerchant {
+            width:60px;
+        }
     </style>
 </head>
 <body>
+    <h1 class="top_title" style="margin-bottom:100px;text-align:center;">汽车配件的出库/入库</h1>
     <form id="form1" runat="server">
     <div>
          <%--<asp:Button ID="btnAdd" runat="server" Text="添加" />--%>
@@ -102,7 +122,8 @@
         </asp:GridView>
 <%---------------------------------需求商信息结束--------------------------------------------------%>
 <%---------------------------------配件信息表--------------------------------------------------%>
-        <span>请选择操作类型：</span>
+        <div class="input_info" style="width:620px;margin:15px auto;color:white;">
+        <span>操作类型：</span>
         <asp:DropDownList ID="ddlType" runat="server">
             <asp:ListItem>入库</asp:ListItem>
             <asp:ListItem>出库</asp:ListItem>
@@ -116,6 +137,7 @@
             <asp:TextBox runat="server" ID="txtNeedMerchant"></asp:TextBox>
         </div>
         <asp:Button runat="server" Text="确认" ID="btnConfirm" OnClick="btnConfirm_Click"></asp:Button>
+        </div>
         <asp:GridView ID="gvParts" runat="server" DataKeyNames="PartId" AutoGenerateColumns="False" AllowPaging="True" OnPageIndexChanging="gvParts_PageIndexChanging">
             <Columns>
                 <asp:BoundField DataField="Num" HeaderText="编号" />

@@ -2,145 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f945c181-775d-4436-ba0c-55269766c547" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/AspNet.ScriptManager.jQuery.1.8.2/AspNet.ScriptManager.jQuery.1.8.2.nupkg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/AspNet.ScriptManager.jQuery.1.8.2/lib/net40/AspNet.ScriptManager.jQuery.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/AspNet.ScriptManager.jQuery.1.8.2/lib/net45/AspNet.ScriptManager.jQuery.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/DotNetOpenAuth.AspNet.4.1.4.12333/DotNetOpenAuth.AspNet.4.1.4.12333.nupkg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/DotNetOpenAuth.AspNet.4.1.4.12333/lib/net40-full/DotNetOpenAuth.AspNet.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/DotNetOpenAuth.AspNet.4.1.4.12333/lib/net45-full/DotNetOpenAuth.AspNet.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/DotNetOpenAuth.Core.4.1.4.12333/DotNetOpenAuth.Core.4.1.4.12333.nupkg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/DotNetOpenAuth.Core.4.1.4.12333/lib/net40-full/DotNetOpenAuth.Core.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/DotNetOpenAuth.Core.4.1.4.12333/lib/net45-full/DotNetOpenAuth.Core.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/EntityFramework.zh-Hans.5.0.0/EntityFramework.zh-Hans.5.0.0.nupkg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/EntityFramework.zh-Hans.5.0.0/lib/net40/zh-Hans/EntityFramework.resources.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/EntityFramework.zh-Hans.5.0.0/lib/net45/zh-Hans/EntityFramework.resources.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.FriendlyUrls.1.0.0/Microsoft.AspNet.FriendlyUrls.1.0.0.nupkg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.Providers.Core.1.2/Microsoft.AspNet.Providers.Core.1.2.nupkg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.Providers.Core.1.2/lib/net40/System.Web.Providers.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.Providers.Core.1.2/lib/net40/zh-Hans/System.Web.Providers.resources.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/jQuery.UI.Combined.1.8.24.nupkg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/Log.aspx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/Log.aspx.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/Log.aspx.designer.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/Manager.aspx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/Manager.aspx.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/Manager.aspx.designer.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/ManagerEdit.aspx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/ManagerEdit.aspx.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/ManagerEdit.aspx.designer.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/NeedMerchantEdit.aspx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/NeedMerchantEdit.aspx.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/NeedMerchantEdit.aspx.designer.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/SuppliesInfoEdit.aspx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/SuppliesInfoEdit.aspx.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/SuppliesInfoEdit.aspx.designer.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/AspNet.ScriptManager.jQuery.1.8.2/AspNet.ScriptManager.jQuery.1.8.2.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/DotNetOpenAuth.AspNet.4.1.4.12333/DotNetOpenAuth.AspNet.4.1.4.12333.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/DotNetOpenAuth.AspNet.4.1.4.12333/lib/net40-full/DotNetOpenAuth.AspNet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/DotNetOpenAuth.AspNet.4.1.4.12333/lib/net45-full/DotNetOpenAuth.AspNet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/DotNetOpenAuth.Core.4.1.4.12333/DotNetOpenAuth.Core.4.1.4.12333.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/DotNetOpenAuth.Core.4.1.4.12333/lib/net40-full/DotNetOpenAuth.Core.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/DotNetOpenAuth.Core.4.1.4.12333/lib/net45-full/DotNetOpenAuth.Core.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/EntityFramework.5.0.0/Content/App.config.transform" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/EntityFramework.5.0.0/Content/Web.config.transform" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/EntityFramework.5.0.0/tools/EntityFramework.psd1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/EntityFramework.5.0.0/tools/init.ps1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/EntityFramework.zh-Hans.5.0.0/EntityFramework.zh-Hans.5.0.0.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/EntityFramework.zh-Hans.5.0.0/lib/net40/zh-Hans/EntityFramework.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/EntityFramework.zh-Hans.5.0.0/lib/net45/zh-Hans/EntityFramework.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.FriendlyUrls.1.0.0/Content/App_Start/RouteConfig.cs.pp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.FriendlyUrls.1.0.0/Content/Site.Mobile.Master.cs.pp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.FriendlyUrls.1.0.0/Content/Site.Mobile.Master.designer.cs.pp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.FriendlyUrls.1.0.0/Content/Site.Mobile.Master.pp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.FriendlyUrls.1.0.0/Content/ViewSwitcher.ascx.cs.pp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.FriendlyUrls.1.0.0/Content/ViewSwitcher.ascx.designer.cs.pp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.FriendlyUrls.1.0.0/Content/ViewSwitcher.ascx.pp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.FriendlyUrls.1.0.0/Microsoft.AspNet.FriendlyUrls.1.0.0.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.FriendlyUrls.1.0.0/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.Providers.Core.1.2/Microsoft.AspNet.Providers.Core.1.2.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.AspNet.Providers.Core.1.2/readme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/Microsoft.Web.Infrastructure.1.0.0.0/Microsoft.Web.Infrastructure.1.0.0.0.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.autocomplete.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.core.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.progressbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.resizable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.selectable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/jquery.ui.theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery.ui.accordion.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery.ui.autocomplete.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery.ui.button.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery.ui.core.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery.ui.datepicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery.ui.dialog.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery.ui.progressbar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery.ui.resizable.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery.ui.selectable.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery.ui.slider.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery.ui.tabs.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Content/themes/base/minified/jquery.ui.theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Scripts/jquery-ui-1.8.24.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Content/Scripts/jquery-ui-1.8.24.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Tools/common.ps1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Tools/install.ps1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/Tools/uninstall.ps1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/packages/jQuery.UI.Combined.1.8.24/jQuery.UI.Combined.1.8.24.nuspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/Images/Index2Bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/屠恩莉-毕业设计相关文档/屠恩莉-毕业设计相关文档/~$文 -屠恩莉.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/开题报告/~$报告-张中华.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/系统流程/修改信息.vsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/系统流程/删除信息.vsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/系统流程/登录流程图.vsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/系统结构图/一级管理员功能模块.vsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/系统结构图/二级管理员管理模块.vsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/系统结构图/系统总结构图.vsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarParts.mdf" afterPath="$PROJECT_DIR$/CarParts.mdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/CarPartsManage.v12.suo" afterPath="$PROJECT_DIR$/CarPartsManage/CarPartsManage.v12.suo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/bin/WebApp.dll" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/bin/WebApp.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/bin/WebApp.pdb" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/bin/WebApp.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/obj/Debug/WebApp.dll" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/obj/Debug/WebApp.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/obj/Debug/WebApp.pdb" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/obj/Debug/WebApp.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql.bak" afterPath="$PROJECT_DIR$/sql.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarParts_log.ldf" afterPath="$PROJECT_DIR$/CarParts_log.ldf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/屠恩莉-毕业设计相关文档/屠恩莉-毕业设计相关文档/论文 -屠恩莉.docx" afterPath="$PROJECT_DIR$/屠恩莉-毕业设计相关文档/屠恩莉-毕业设计相关文档/论文 -屠恩莉.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/论文一.doc" afterPath="$PROJECT_DIR$/论文一.doc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/Index1.aspx" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/Index1.aspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/NeedMerchant.aspx" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/NeedMerchant.aspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/NeedMerchant.aspx.cs" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/NeedMerchant.aspx.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/NeedMerchant.aspx.designer.cs" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/NeedMerchant.aspx.designer.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/PartsInfo.aspx" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/PartsInfo.aspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/PartsInfoEdit.aspx" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/PartsInfoEdit.aspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/PartsInfoEdit.aspx.cs" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/PartsInfoEdit.aspx.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/PartsInfoEdit.aspx.designer.cs" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/PartsInfoEdit.aspx.designer.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/Supplies.aspx" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/Supplies.aspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/Supplies.aspx.cs" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/Supplies.aspx.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/Supplies.aspx.designer.cs" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/InfoPage/Supplies.aspx.designer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/Index2.aspx" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/Index2.aspx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarPartsManage/WebApp/WebApp.csproj" afterPath="$PROJECT_DIR$/CarPartsManage/WebApp/WebApp.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/常用查询.sql" afterPath="$PROJECT_DIR$/常用查询.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -186,7 +69,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,7 +98,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +183,10 @@
       <workItem from="1492592278358" duration="1890000" />
       <workItem from="1492681359273" duration="363000" />
       <workItem from="1492734598578" duration="41000" />
-      <workItem from="1492765530147" duration="74000" />
+      <workItem from="1492765530147" duration="782000" />
+      <workItem from="1493112449322" duration="41000" />
+      <workItem from="1493112639826" duration="313000" />
+      <workItem from="1493198395507" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="4.18数据库设计完成">
       <created>1492504890327</created>
@@ -323,11 +209,25 @@
       <option name="project" value="LOCAL" />
       <updated>1492681676649</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4.21 一级信息管理基本完成">
+      <created>1492765705410</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1492765705410</updated>
+    </task>
+    <task id="LOCAL-00005" summary="4.25基本功能与界面完成">
+      <created>1493112713007</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1493112713007</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3194000" />
+    <option name="totallyTimeSpent" value="4323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -361,7 +261,10 @@
     <MESSAGE value="4.18数据库设计完成" />
     <MESSAGE value="4.19 论文完成到数据库设计，登录界面及功能完成" />
     <MESSAGE value="4.20" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.20" />
+    <MESSAGE value="4.21 一级信息管理基本完成" />
+    <MESSAGE value="4.25基本功能与界面完成" />
+    <MESSAGE value=" 4.26 毕业设计基本完成" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 4.26 毕业设计基本完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
